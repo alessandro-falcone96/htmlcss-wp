@@ -31,9 +31,36 @@ li{
 }
 
 .prima-sezione{
-  background-color: #cccc00;
+  /* background-color: #cccc00; */
+  width: 100%;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
   margin: 10px 0px;
-  height: 500px;
+  height: 600px;
+  position: relative;
+}
+.prima-sezione .primo-contenuto{
+  width: 50%;
+  position: absolute;
+  bottom: 75px;
+  left: 40px;
+  z-index: 0;
+}
+
+.primo-contenuto h3{
+  color: white;
+  font-size: 45px;
+}
+.primo-contenuto p{
+  color: white;
+}
+
+.overlay{
+  z-index: 1;
+  background: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 600px;
 }
 
 .seconda-sezione{
