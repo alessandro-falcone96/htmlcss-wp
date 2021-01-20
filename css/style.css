@@ -9,13 +9,25 @@ body{
 }
 
 header{
-  background-color: #ff33bb;
+  /* background-color: #ff33bb; */
   /* height: 80px; */
 }
 
 footer{
   background-color: #6600ff;
   height: 50px;
+}
+
+header img{
+  padding-right: 10px;
+  border-right: 1px solid lightgrey;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px 5px;
+  color: grey;
 }
 
 .prima-sezione{
