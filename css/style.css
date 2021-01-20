@@ -56,7 +56,7 @@ li{
   color: white;
 }
 
-.overlay{
+.prima-sezione .overlay{
   z-index: 1;
   background: rgba(0,0,0,0.4);
   width: 100%;
@@ -83,6 +83,45 @@ li{
 }
 
 
+.colonna-sinistra .container{
+  height: 250px;
+  width: 100%;
+  background-image: url("../img/img-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: yellow;
+}
+
+.colonna-centro .container{
+  height: 250px;
+  width: 100%;
+  background-image: url("../img/banner-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: yellow;
+}
+
+.colonna-destra .container{
+  height: 250px;
+  width: 100%;
+  background-image: url("../img/img-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: yellow;
+
+}
+
+.seconda-sezione .overlay{
+  z-index: 1;
+  background: rgba(0,0,0,0.3);
+  width: 100%;
+  height: 250px;
+}
+
+
 .colonna-sinistra,
 .colonna-centro,
 .colonna-destra {
@@ -92,14 +131,14 @@ li{
 
 .colonna-sinistra,
 .colonna-destra{
-  width: 15vw;
+  width: 20vw;
   margin-top: 10px;
   margin-bottom: 10px;
   height: 430px;
 }
 
 .colonna-centro{
-  width: calc(70vw - 120px);
+  width: calc(60vw - 120px);
   margin: 10px;
   height: 430px;
 }
