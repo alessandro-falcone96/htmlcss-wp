@@ -67,13 +67,21 @@ li{
   background-color: #0066ff;
   margin-top: 10px;
   margin-bottom: 5px;
-  height: 500px;
+  height: 800px;
 }
 
 .header-sezione{
-  background-color:  #66b3ff;
-  height: 50px;
+  /* background-color:  #66b3ff; */
+  /* height: 50px; */
+  padding: 20px 0px;
 }
+.header-sezione h2{
+  font-size: 35px;
+}
+.header-sezione p{
+  color: white;
+}
+
 
 .colonna-sinistra,
 .colonna-centro,
