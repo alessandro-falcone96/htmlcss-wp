@@ -6,6 +6,7 @@
 
 body{
   margin: 10px 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -27,7 +28,7 @@ li{
   list-style: none;
   display: inline-block;
   padding: 20px 5px;
-  color: grey;
+  color: #858585;
 }
 
 .prima-sezione{
@@ -50,11 +51,11 @@ li{
 }
 
 .primo-contenuto h3{
-  color: white;
+  color: lightgrey;
   font-size: 45px;
 }
 .primo-contenuto p{
-  color: white;
+  color: lightgrey;
 }
 
 .prima-sezione .overlay{
@@ -81,7 +82,7 @@ li{
   font-size: 35px;
 }
 .header-sezione p{
-  color: white;
+  color: grey;
 }
 
 
@@ -149,8 +150,14 @@ li{
   /* height: 430px; */
 }
 
-.seconda-sezione h5{
+.contenuto-colonna-laterale h5,
+.contenuto-colonna-centrale h5{
   padding: 10px 0px;
+}
+
+.seconda-sezione h5,
+.seconda-sezione p{
+  color: #929292;
 }
 
 .clearfix::after {
